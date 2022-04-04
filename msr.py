@@ -35,7 +35,7 @@ class MatrixSynthReaction:
     def translation(self, dna):
         aa = []
         d = len(dna)
-        for i in range(1,d):
+        for i in range(d):
             aa.append(self.codontable[dna[i]])
         return aa
 
